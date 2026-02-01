@@ -49,6 +49,16 @@ echo "All arguments: $@"
  ``Note:``Always use "$@" when passing arguments to another command.
  
 ---
+
+## 11. Backup Scripts:
+
+* **`cp`**: Copy files/directories. `cp -r source destination` (recursive copy)
+* **`rsync`**:  A powerful tool for synchronizing files and directories locally or remotely.
+* **`tar`**: Create and extract archives.  `tar -czvf backup.tar.gz files_to_backup` (create a compressed archive)
+* **Version control (e.g., `git`)**: The best approach for managing script backups and history.
+
+----
+
 ### Further Learning
 
 This document covers core Bash scripting concepts, but Bash is extremely powerful.
