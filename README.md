@@ -24,5 +24,6 @@ This repository contains my notes and practice tasks for learning Shell/Bash scr
 ## How to Run
 ```bash
 chmod +x script.sh
-./script.sh or bash script.sh
+./script.sh
+bash script.sh
 ```
